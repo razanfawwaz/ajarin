@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap");
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: rgb(39 39 42);
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 18px;
+  background-color: rgb(24 24 27);
+}
+
+.nav-right > a {
+  margin: 6px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.nav-left > p {
+  color: #fff;
+  font-weight: 400;
+}
+
+main {
+  width: 100%;
+  margin: 36px auto;
+}
+
+.content {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+article {
+  width: 65%;
+  margin: 0 24px;
+}
+
+article > h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 40px;
+  margin: 0;
+}
+
+article > p {
+  margin-top: 16px;
+  display: inline-block;
+  color: rgb(161 161 200);
+}
+
+article > img {
+  width: 100%;
+  margin: 24px 0;
+  border-radius: 5px;
+}
+
+.article-content > p {
+  color: rgb(161 161 170);
+  font-weight: 400;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.5;
+  margin: 24px 0;
+}
+
+.article-content > h2 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 24px 0;
+}
+
+pre {
+  width: 100%;
+  background-color: #2d2d2d;
+  color: #d4d4d4;
+  border: 1px solid #444;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+code {
+  font-family: "Fira Code", monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  display: block;
+  padding: 0;
+}
+
+aside {
+  width: 65%;
+  margin: 0 24px;
+  border-radius: 12px;
+  background-color: rgb(24 24 57);
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+aside > h1 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.aside-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 24px;
+}
+
+.aside-content > img {
+  width: 20%;
+  border-radius: 100px;
+}
+
+.profile {
+  margin-left: 24px;
+  margin-bottom: 36px;
+}
+
+.profile > p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
+}
+
+.profile > h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+span > a {
+  color: #fdda0d;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+span > a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: rgb(24 24 27);
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 0;
+  color: #fff;
+}
